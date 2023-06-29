@@ -14,6 +14,8 @@
 		887995FD2A4E3C8A0030A6F0 /* JP_Apex_PredatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887995FC2A4E3C8A0030A6F0 /* JP_Apex_PredatorsTests.swift */; };
 		887996072A4E3C8A0030A6F0 /* JP_Apex_PredatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887996062A4E3C8A0030A6F0 /* JP_Apex_PredatorsUITests.swift */; };
 		887996092A4E3C8A0030A6F0 /* JP_Apex_PredatorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887996082A4E3C8A0030A6F0 /* JP_Apex_PredatorsUITestsLaunchTests.swift */; };
+		887996162A4E3D040030A6F0 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 887996152A4E3D040030A6F0 /* jpapexpredators.json */; };
+		887996182A4E3E1B0030A6F0 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887996172A4E3E1B0030A6F0 /* ApexPredator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		887996022A4E3C8A0030A6F0 /* JP Apex PredatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JP Apex PredatorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887996062A4E3C8A0030A6F0 /* JP_Apex_PredatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_Apex_PredatorsUITests.swift; sourceTree = "<group>"; };
 		887996082A4E3C8A0030A6F0 /* JP_Apex_PredatorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_Apex_PredatorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		887996152A4E3D040030A6F0 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		887996172A4E3E1B0030A6F0 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				887995EB2A4E3C880030A6F0 /* JP_Apex_PredatorsApp.swift */,
+				887996172A4E3E1B0030A6F0 /* ApexPredator.swift */,
 				887995ED2A4E3C880030A6F0 /* ContentView.swift */,
+				887996152A4E3D040030A6F0 /* jpapexpredators.json */,
 				887995EF2A4E3C8A0030A6F0 /* Assets.xcassets */,
 				887995F12A4E3C8A0030A6F0 /* Preview Content */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				887995F32A4E3C8A0030A6F0 /* Preview Assets.xcassets in Resources */,
 				887995F02A4E3C8A0030A6F0 /* Assets.xcassets in Resources */,
+				887996162A4E3D040030A6F0 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887996182A4E3E1B0030A6F0 /* ApexPredator.swift in Sources */,
 				887995EE2A4E3C880030A6F0 /* ContentView.swift in Sources */,
 				887995EC2A4E3C880030A6F0 /* JP_Apex_PredatorsApp.swift in Sources */,
 			);
