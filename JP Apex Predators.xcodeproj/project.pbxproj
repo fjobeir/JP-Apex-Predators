@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886382682A504111004B745B /* PredetorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886382672A504111004B745B /* PredetorController.swift */; };
 		887995EC2A4E3C880030A6F0 /* JP_Apex_PredatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887995EB2A4E3C880030A6F0 /* JP_Apex_PredatorsApp.swift */; };
 		887995EE2A4E3C880030A6F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887995ED2A4E3C880030A6F0 /* ContentView.swift */; };
 		887995F02A4E3C8A0030A6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887995EF2A4E3C8A0030A6F0 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		886382672A504111004B745B /* PredetorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredetorController.swift; sourceTree = "<group>"; };
 		887995E82A4E3C880030A6F0 /* JP Apex Predators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JP Apex Predators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887995EB2A4E3C880030A6F0 /* JP_Apex_PredatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_Apex_PredatorsApp.swift; sourceTree = "<group>"; };
 		887995ED2A4E3C880030A6F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				887995EB2A4E3C880030A6F0 /* JP_Apex_PredatorsApp.swift */,
 				887996172A4E3E1B0030A6F0 /* ApexPredator.swift */,
+				886382672A504111004B745B /* PredetorController.swift */,
 				887995ED2A4E3C880030A6F0 /* ContentView.swift */,
 				887996152A4E3D040030A6F0 /* jpapexpredators.json */,
 				887995EF2A4E3C8A0030A6F0 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886382682A504111004B745B /* PredetorController.swift in Sources */,
 				887996182A4E3E1B0030A6F0 /* ApexPredator.swift in Sources */,
 				887995EE2A4E3C880030A6F0 /* ContentView.swift in Sources */,
 				887995EC2A4E3C880030A6F0 /* JP_Apex_PredatorsApp.swift in Sources */,
